@@ -8,4 +8,4 @@ def load_and_split_docs():
     text_splitter = RecursiveCharacterTextSplitter(chunk_size=500, chunk_overlap=50)
     docs = text_splitter.split_documents(documents)
     
-    return docs
+    return docs 

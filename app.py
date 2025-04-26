@@ -13,3 +13,4 @@ if __name__ == "__main__":
 
         result = query_rag(vectordb, query)
         print("\nAnswer:", result)
+ 

@@ -6,7 +6,7 @@ USE_FAKE_EMBEDDINGS = False  # 🛠️ Change if needed
 def query_rag(vectordb, query):
     if USE_FAKE_EMBEDDINGS:
         return "This is a fake answer because you're using Fake Embeddings."
-    else:
+    else: 
         llm = Ollama(
             model="llama3",  # OR 'mistral', 'qwen', etc
             base_url="http://localhost:11434"

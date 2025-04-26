@@ -2,7 +2,7 @@ from langchain_community.vectorstores import Chroma
 from langchain_community.embeddings import OllamaEmbeddings
 from tqdm import tqdm
 import os
-
+ 
 def create_embeddings(documents):
     # Load Ollama embeddings
     embedding_function = OllamaEmbeddings(

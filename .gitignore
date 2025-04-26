@@ -1,0 +1,35 @@
+#Byte code and caches
+__pycache__/
+*.py[cod]
+*.pyo
+
+#virtual environment
+venv/
+.env/
+.venv/
+
+#Environment variables
+.env
+*.env
+
+#OS files
+.DS_Store
+Thumbs.db
+
+#VS Code Settings
+.vscode/
+
+#logs
+*.log
+
+#python egg / build artifacts
+*.egg-info/
+dist/
+build/
+
+#jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+#temporary files
+*.bak
+*.temp
