@@ -1,0 +1,29 @@
+# Ignore the Python bytecode files
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignore virtual environments
+venv/
+env/
+
+# Ignore any other environment or temporary directories
+.DS_Store
+.idea/
+.vscode/
+
+# Ignore files related to Docker builds
+Dockerfile
+.dockerignore
+
+# Ignore any log files
+*.log
+
+# Ignore any temporary files
+*.tmp
+*.swp
+*.bak
+
+# Ignore git files (if you're using Git)
+.git/
+.gitignore

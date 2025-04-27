@@ -3,5 +3,6 @@ langchain-community
 chromadb
 pypdf
 tqdm
+flask
 #run ollama llama3
 #ollama pull nomic-embed-text
