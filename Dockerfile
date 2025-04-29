@@ -11,7 +11,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Install necessary tools for curl, vim, and dos2unix
 RUN apt-get update && apt-get install -y curl vim dos2unix bash
 
-RUN curl -fsSL https://ollama.com/install.sh | sh
+#RUN curl -fsSL https://ollama.com/install.sh | sh
 
 
 # Expose Flask and Ollama ports
@@ -22,4 +22,4 @@ EXPOSE 11434
 COPY . /app/
 
 # Run Ollama and Flask app
-CMD ["bash", "-c", "ollama run llama3 &  ollama pull nomic-embed-text & python app.py"]
+CMD ["bash", "-c", "python app.py"]

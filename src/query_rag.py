@@ -33,7 +33,8 @@ def query_rag(vectordb, query):
             model="llama3",  # OR 'mistral', 'qwen', etc
             temperature = 0.2,
             num_ctx = 2048,
-            top_p = 0.9
+            top_p = 0.9,
+            base_url = "http://20.220.168.11:11434"
         )
 
         retriever = vectordb.as_retriever(search_kwargs={"k":5})

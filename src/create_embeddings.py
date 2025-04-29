@@ -6,7 +6,8 @@ import os
 def create_embeddings(documents):
     # Load Ollama embeddings
     embedding_function = OllamaEmbeddings(
-        model="nomic-embed-text"  # Make sure this model is pulled
+        model="nomic-embed-text" , # Make sure this model is pulled
+        base_url = "http://20.220.168.11:11434"
     )
     
     # Directory to store the database
